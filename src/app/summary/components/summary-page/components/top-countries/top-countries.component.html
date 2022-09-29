@@ -1,0 +1,6 @@
+<div class="container">
+  <h3>Confirmed Cases</h3>
+  <ul>
+    <li *ngFor="let country of countriesData">{{ country.Country }} - {{ country.TotalConfirmed | number }} </li>
+  </ul>
+</div>

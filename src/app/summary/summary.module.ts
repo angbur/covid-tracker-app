@@ -3,11 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { SummaryRoutingModule } from './summary-routing.module';
 import { SummaryPageComponent } from './components/summary-page/summary-page.component';
+import { SummaryCardsComponent } from './components/summary-page/components/summary-cards/summary-cards.component';
+import { TopCountriesComponent } from './components/summary-page/components/top-countries/top-countries.component';
 
 
 @NgModule({
   declarations: [
-    SummaryPageComponent
+    SummaryPageComponent,
+    SummaryCardsComponent,
+    TopCountriesComponent
   ],
   imports: [
     CommonModule,

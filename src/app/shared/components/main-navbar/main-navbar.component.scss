@@ -1,0 +1,25 @@
+.main-navbar {
+  background: #85042f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  img {
+    height: 26px;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+  }
+}

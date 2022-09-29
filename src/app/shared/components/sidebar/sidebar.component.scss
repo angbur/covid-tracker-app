@@ -1,0 +1,26 @@
+.sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background: #ce4257;
+  box-shadow: 10px 4px 14px -8px rgba(15,3,50,0.49);
+  -webkit-box-shadow: 10px 4px 14px -8px rgba(15,3,50,0.49);
+  -moz-box-shadow: 10px 4px 14px -8px rgba(15,3,50,0.49);
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      padding: 1rem 1.6rem;
+      &:hover {
+        cursor: pointer;
+        background: #fc8c63;
+        color: white;
+      }
+      &.active {
+        background: #fc8c63;
+        color: white;
+      }
+    }
+}

@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+body, html, :host {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fc8c63;
+    &:hover {
+      color: #fc8c63;
+    }
+}
+
+.container-fluid {
+  margin-left: 200px;
+  padding: 1rem;
+  width: auto;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6rem 1.4rem;
+    &:hover {
+      cursor: pointer;
+      background: #f3845b;
+    }
+}
+
+.button-primary {
+  background: #fc8c63;
+  border: none;
+    &:hover {
+      background: #f3845b;
+    }
+}
